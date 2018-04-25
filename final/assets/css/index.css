@@ -1,0 +1,53 @@
+#top-nav {
+	display: inline-block;
+	align-content: center;
+	text-align: center;
+	overflow: auto;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	width: 100%;
+} /*NOOOOOO MUST ALIGN HORIZONTALL KKKKKKKKKKK
+}*/
+
+.logo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Dancing Script', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+}
+
+li {
+	display: inline-block;
+	padding: 40px 8px;
+/*	text-transform: uppercase;*/
+}
+
+.biog {
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+}
+
+.selfie {
+/*	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 23%;*/
+	width: 100%;
+	text-align: center;
+	padding: 12px;
+}
+
+/*a {
+	display: block;
+}*/

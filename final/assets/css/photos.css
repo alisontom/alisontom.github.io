@@ -1,0 +1,118 @@
+#top-nav {
+	display: inline-block;
+	align-content: center;
+	text-align: center;
+	overflow: auto;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	width: 100%;
+} /*NOOOOOO MUST ALIGN HORIZONTALL KKKKKKKKKKK
+}*/
+
+.logo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Dancing Script', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+}
+
+li {
+	display: inline-block;
+	padding: 40px 8px;
+/*	text-transform: uppercase;*/
+}
+
+#contentid {
+	position: relative;
+	width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.picture {
+/*	width: 30%;*/
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	/*margin-top: 45px;*/
+	margin-bottom: 45px;
+/*	align-items: center;
+	justify-content: center;*/
+}
+
+.picture:hover {
+	cursor: pointer;
+}
+
+.pic-click {
+	position: fixed;
+	z-index: 21;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 5%;
+}
+
+.pic-click:hover {
+	cursor: default;
+}
+
+/*.picture {
+	position: relative;
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+	min-width: 50%;
+	animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    /*-webkit-animation: fadein 1s; /* Safari and Chrome */
+    /*-o-animation: fadein 1s; /* Opera */
+/*}*/
+
+
+.pic-click {
+	position: fixed;
+	z-index: 21;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	/*top: 10%;*/
+	/*left: 10%;*/
+/*}*/
+}
+
+/*overlay!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#overlay { 
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	top: 0px;
+	left: 200px;
+	z-index: 50;
+ }
+
+#x {
+	position: fixed;
+	width: 20px;
+	top: 3px;
+	right: 10px;
+}
+
+#x:hover {
+	cursor: pointer;
+}

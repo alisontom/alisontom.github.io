@@ -1,0 +1,61 @@
+#top-nav {
+	display: inline-block;
+	align-content: center;
+	text-align: center;
+	overflow: auto;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	width: 100%;
+} /*NOOOOOO MUST ALIGN HORIZONTALL KKKKKKKKKKK
+}*/
+
+.logo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Dancing Script', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+}
+
+li {
+	display: inline-block;
+	padding: 40px 8px;
+/*	text-transform: uppercase;*/
+}
+
+.video-title {
+	position: fixed;
+	font-family: 'Varela Round', sans-serif;
+}
+
+p {
+	position: fixed;
+	top: 260px;
+	font-family: 'EB Garamond', serif;
+}
+
+#videos {
+	/*display: inline-block;*/
+}
+
+iframe { /*VERTICAL???? KKKKKKKKKKkkkkkkkkkKKKKKKKK*/
+	/*float: right;*/
+	position: relative;
+	left: 50%;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+/*	box-sizing: border-box;*/
+/*	padding: 22px;*/
+/*	vertical-align: baseline*/
+}
